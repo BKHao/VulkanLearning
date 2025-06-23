@@ -23,7 +23,7 @@
 
 #ifdef _WIN32
     #ifdef BUILD_SHARED_LIBS
-        #ifdef vlk_core_EXPORTS
+        #ifdef vkl_core_EXPORTS
             #define VKL_EXPORT __declspec(dllexport)
         #else
             #define VKL_EXPORT __declspec(dllimport)
